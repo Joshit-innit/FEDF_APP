@@ -1,0 +1,86 @@
+{
+  "nav": {
+    "home": "Home",
+    "festivals": "Festivals",
+    "traditions": "Traditions",
+    "recipes": "Recipes",
+    "culture": "Culture",
+    "login": "Login",
+    "signup": "Sign Up",
+    "logout": "Logout",
+    "language": "Language"
+  },
+  "home": {
+    "title": "Welcome to Indian Culture Explorer",
+    "subtitle": "Discover the vibrant traditions, festivals, and heritage of India",
+    "explore": "Explore Indian Culture",
+    "sections": {
+      "festivals": {
+        "title": "Festivals",
+        "description": "Experience the kaleidoscope of Indian festivals, from the lights of Diwali to the colors of Holi."
+      },
+      "traditions": {
+        "title": "Traditions",
+        "description": "Dive deep into the customs and practices that define Indian society and family values."
+      },
+      "recipes": {
+        "title": "Recipes",
+        "description": "Savor the diverse flavors of Indian cuisine across different regions."
+      },
+      "culture": {
+        "title": "Culture",
+        "description": "Explore the art, music, dance, and architecture that showcase India's rich heritage."
+      }
+    }
+  },
+  "festivals": {
+    "title": "Indian Festivals",
+    "subtitle": "Discover the vibrant celebrations that define Indian culture",
+    "filterByCategory": "Filter by Category",
+    "allCategories": "All Categories",
+    "noFestivals": "No festivals found. Add some sample data to see festivals here!",
+    "date": "Date",
+    "significance": "Significance",
+    "region": "Region",
+    "loading": "Loading festivals...",
+    "description": "Description"
+  },
+  "traditions": {
+    "title": "Indian Traditions",
+    "subtitle": "Explore the customs and practices that shape Indian culture",
+    "filterByCategory": "Filter by Category",
+    "allCategories": "All Categories",
+    "noTraditions": "No traditions found. Add some sample data to see traditions here!",
+    "region": "Region",
+    "loading": "Loading traditions..."
+  },
+  "recipes": {
+    "title": "Indian Recipes",
+    "subtitle": "Discover the diverse flavors of Indian cuisine",
+    "filterByCuisine": "Filter by Cuisine",
+    "allCuisines": "All Cuisines",
+    "noRecipes": "No recipes found. Add some sample data to see recipes here!",
+    "prepTime": "Prep Time",
+    "cookTime": "Cook Time",
+    "servings": "Servings",
+    "difficulty": "Difficulty",
+    "loading": "Loading recipes..."
+  },
+  "culture": {
+    "title": "Indian Culture & Heritage",
+    "subtitle": "Explore the art, music, dance, and architecture of India",
+    "filterByCategory": "Filter by Category",
+    "allCategories": "All Categories",
+    "noCulture": "No culture items found. Add some sample data to see culture here!",
+    "region": "Region",
+    "historicalPeriod": "Historical Period",
+    "loading": "Loading culture items..."
+  },
+  "common": {
+    "category": "Category",
+    "region": "Region",
+    "loading": "Loading...",
+    "error": "An error occurred. Please try again.",
+    "noData": "No data available."
+  }
+}

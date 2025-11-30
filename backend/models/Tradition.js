@@ -16,7 +16,7 @@ const traditionSchema = new mongoose.Schema({
   },
   category: {
     type: String,
-    enum: ['Wedding', 'Birth', 'Death', 'Religious', 'Social', 'Artistic'],
+    enum: ['Wedding', 'Birth', 'Death', 'Religious', 'Social', 'Artistic', 'Spiritual', 'Festive', 'Clothing'],
     required: true
   },
   practices: [String],

@@ -45,7 +45,7 @@ const recipeSchema = new mongoose.Schema({
   tags: [String],
   occasion: {
     type: String,
-    enum: ['Festival', 'Wedding', 'Daily', 'Special', 'Street Food']
+    enum: ['Festival', 'Wedding', 'Daily', 'Special', 'Street Food', 'Breakfast', 'Lunch', 'Dinner', 'Snack']
   }
 }, {
   timestamps: true

@@ -13,83 +13,128 @@ import Login from './pages/Login';
 import Signup from './pages/Signup';
 import './App.css';
 
-// Indian-inspired theme
+// Vibrant Indian-inspired theme
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#FF6B35',
-      light: '#FFA270',
-      dark: '#A63F03',
+      main: '#FF6B35', // Vibrant Orange
+      light: '#FF9E75',
+      dark: '#C43C00',
+      contrastText: '#fff',
     },
     secondary: {
-      main: '#2E7D32',
-      light: '#60AD5E',
-      dark: '#1B5E20',
-    },
-    info: {
-      main: '#006A71',
-    },
-    warning: {
-      main: '#FFB300',
+      main: '#00897B', // Teal Green
+      light: '#4EBAAA',
+      dark: '#005B4F',
+      contrastText: '#fff',
     },
     background: {
-      default: '#FBF4E6',
+      default: '#FDFBF7', // Warm Off-white
       paper: '#FFFFFF',
     },
     text: {
-      primary: '#2E2E2E',
-      secondary: '#6B6B6B',
+      primary: '#1A1A1A',
+      secondary: '#424242',
+    },
+    error: {
+      main: '#D32F2F',
+    },
+    warning: {
+      main: '#FFA000',
+    },
+    info: {
+      main: '#1976D2',
+    },
+    success: {
+      main: '#388E3C',
     },
   },
   typography: {
-    fontFamily: '"Poppins", "Helvetica", "Arial", sans-serif',
+    fontFamily: '"Poppins", "Roboto", "Helvetica", "Arial", sans-serif',
     h1: {
-      fontFamily: '"Noto Serif", "Noto Serif Devanagari", serif',
-      fontSize: '2.8rem',
-      fontWeight: 700,
-      color: '#8C2F00',
-      letterSpacing: '0.5px',
+      fontFamily: '"Playfair Display", serif',
+      fontWeight: 800,
+      color: '#D84315', // Deep Orange
+      letterSpacing: '-0.5px',
     },
     h2: {
-      fontFamily: '"Noto Serif", "Noto Serif Devanagari", serif',
-      fontSize: '2.2rem',
-      fontWeight: 600,
-      color: '#A63F03',
+      fontFamily: '"Playfair Display", serif',
+      fontWeight: 700,
+      color: '#BF360C',
     },
     h3: {
-      fontFamily: '"Noto Serif", "Noto Serif Devanagari", serif',
-      fontSize: '1.6rem',
+      fontFamily: '"Playfair Display", serif',
+      fontWeight: 700,
+      color: '#E65100',
+    },
+    h4: {
+      fontFamily: '"Playfair Display", serif',
       fontWeight: 600,
-      color: '#FF6B35',
+    },
+    h5: {
+      fontFamily: '"Playfair Display", serif',
+      fontWeight: 600,
+    },
+    h6: {
+      fontFamily: '"Poppins", sans-serif',
+      fontWeight: 600,
+      letterSpacing: '0.5px',
     },
     button: {
       fontWeight: 600,
+      textTransform: 'none',
+      letterSpacing: '0.5px',
     },
   },
   components: {
-    MuiAppBar: {
+    MuiCard: {
       styleOverrides: {
         root: {
-          backgroundImage: 'linear-gradient(90deg, #FF6B35 0%, #BF360C 100%)',
-          boxShadow: '0 4px 10px rgba(0,0,0,0.1)'
+          borderRadius: 20,
+          boxShadow: '0 10px 30px rgba(0,0,0,0.08)',
+          transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
+          overflow: 'visible', // Allow hover effects to pop out
         },
       },
     },
     MuiButton: {
       styleOverrides: {
         root: {
-          borderRadius: 10,
-          textTransform: 'none',
-          fontWeight: 600,
+          borderRadius: 30,
+          padding: '10px 28px',
+          boxShadow: '0 4px 12px rgba(255, 107, 53, 0.2)',
+          transition: 'all 0.3s ease',
+          '&:hover': {
+            transform: 'translateY(-2px)',
+            boxShadow: '0 8px 20px rgba(255, 107, 53, 0.3)',
+          },
+        },
+        containedPrimary: {
+          background: 'linear-gradient(135deg, #FF6B35 0%, #F4511E 100%)',
+        },
+        containedSecondary: {
+          background: 'linear-gradient(135deg, #00897B 0%, #00695C 100%)',
         },
       },
     },
-    MuiCard: {
+    MuiAppBar: {
       styleOverrides: {
         root: {
-          borderRadius: 14,
-          boxShadow: '0 6px 14px rgba(0, 0, 0, 0.12)',
-          border: '1px solid rgba(255,107,53,0.15)'
+          background: 'rgba(255, 255, 255, 0.95)',
+          backdropFilter: 'blur(10px)',
+          color: '#1A1A1A',
+          boxShadow: '0 4px 20px rgba(0,0,0,0.05)',
+        },
+      },
+    },
+    MuiChip: {
+      styleOverrides: {
+        root: {
+          borderRadius: 8,
+          fontWeight: 600,
+        },
+        filled: {
+          boxShadow: '0 2px 5px rgba(0,0,0,0.1)',
         },
       },
     },

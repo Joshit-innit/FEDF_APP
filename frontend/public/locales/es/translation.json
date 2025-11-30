@@ -1,0 +1,86 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "festivals": "Festivales",
+    "traditions": "Tradiciones",
+    "recipes": "Recetas",
+    "culture": "Cultura",
+    "login": "Iniciar sesión",
+    "signup": "Registrarse",
+    "logout": "Cerrar sesión",
+    "language": "Idioma"
+  },
+  "home": {
+    "title": "Bienvenido al Explorador de Cultura India",
+    "subtitle": "Descubre las tradiciones vibrantes, festivales y patrimonio de la India",
+    "explore": "Explorar la Cultura India",
+    "sections": {
+      "festivals": {
+        "title": "Festivales",
+        "description": "Experimenta el caleidoscopio de festivales indios, desde las luces de Diwali hasta los colores de Holi."
+      },
+      "traditions": {
+        "title": "Tradiciones",
+        "description": "Sumérgete en las costumbres y prácticas que definen la sociedad y los valores familiares indios."
+      },
+      "recipes": {
+        "title": "Recetas",
+        "description": "Saborea los sabores diversos de la cocina india en diferentes regiones."
+      },
+      "culture": {
+        "title": "Cultura",
+        "description": "Explora el arte, la música, la danza y la arquitectura que muestran el rico patrimonio de la India."
+      }
+    }
+  },
+  "festivals": {
+    "title": "Festivales Indios",
+    "subtitle": "Descubre las celebraciones vibrantes que definen la cultura india",
+    "filterByCategory": "Filtrar por Categoría",
+    "allCategories": "Todas las Categorías",
+    "noFestivals": "No se encontraron festivales. ¡Agrega algunos datos de ejemplo para ver festivales aquí!",
+    "date": "Fecha",
+    "significance": "Significado",
+    "region": "Región",
+    "loading": "Cargando festivales...",
+    "description": "Descripción"
+  },
+  "traditions": {
+    "title": "Tradiciones Indias",
+    "subtitle": "Explora las costumbres y prácticas que moldean la cultura india",
+    "filterByCategory": "Filtrar por Categoría",
+    "allCategories": "Todas las Categorías",
+    "noTraditions": "No se encontraron tradiciones. ¡Agrega algunos datos de ejemplo para ver tradiciones aquí!",
+    "region": "Región",
+    "loading": "Cargando tradiciones..."
+  },
+  "recipes": {
+    "title": "Recetas Indias",
+    "subtitle": "Descubre los sabores diversos de la cocina india",
+    "filterByCuisine": "Filtrar por Cocina",
+    "allCuisines": "Todas las Cocinas",
+    "noRecipes": "No se encontraron recetas. ¡Agrega algunos datos de ejemplo para ver recetas aquí!",
+    "prepTime": "Tiempo de Preparación",
+    "cookTime": "Tiempo de Cocción",
+    "servings": "Porciones",
+    "difficulty": "Dificultad",
+    "loading": "Cargando recetas..."
+  },
+  "culture": {
+    "title": "Cultura y Patrimonio Indio",
+    "subtitle": "Explora el arte, la música, la danza y la arquitectura de la India",
+    "filterByCategory": "Filtrar por Categoría",
+    "allCategories": "Todas las Categorías",
+    "noCulture": "No se encontraron elementos culturales. ¡Agrega algunos datos de ejemplo para ver cultura aquí!",
+    "region": "Región",
+    "historicalPeriod": "Período Histórico",
+    "loading": "Cargando elementos culturales..."
+  },
+  "common": {
+    "category": "Categoría",
+    "region": "Región",
+    "loading": "Cargando...",
+    "error": "Ocurrió un error. Por favor, intenta de nuevo.",
+    "noData": "No hay datos disponibles."
+  }
+}
